@@ -10,6 +10,8 @@
 #pragma output CLIB_OPEN_MAX=0
 #pragma output CRT_INITIALIZE_BSS=0
 
+#include <cpm.h>
+
 static const char helloWorld[] = "hello, world$";
 
 void main()
